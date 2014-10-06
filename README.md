@@ -4,7 +4,7 @@ Responsive Showcaser
 
 Preview
 -------
-  [Responsive Showcaser Preview](https://github.com/soundarapandian/responsive-showcaser/blob/master/demo/images/showcaser-preview.png)
+  ![Responsive Showcaser Preview](https://github.com/soundarapandian/responsive-showcaser/blob/master/demo/images/showcaser-preview.png)
 
 Dependencies
 ------------
