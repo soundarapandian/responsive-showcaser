@@ -17,16 +17,16 @@
 }
 .desktop .stand-vertical {
   margin: 0 auto;
-  width: 8%;
-  padding: 15px 0;
+  width: 13%;
+  padding: 30px 0;
   background-color: #cccccc;
 }
 .desktop .stand-horizontal {
   margin: 0 auto;
-  width: 18%;
-  height: 5px;
-  background-color: #dddddd;
+  width: 20%;
+  height: 8px;
   border-radius: 0 0 10px 10px;
+  background-color: #dddddd;
 }
 .laptop .display {
   margin: 0 auto;
@@ -122,6 +122,75 @@
 .desktop .display,
 .laptop .display {
   border-radius: 10px 10px 0 0;
+}
+.responsive-showcaser.all-devices {
+  position: relative;
+  margin: 50px auto;
+}
+.responsive-showcaser.all-devices .desktop {
+  z-index: 100;
+  position: relative;
+}
+.responsive-showcaser.all-devices .laptop {
+  position: absolute;
+  right: -25px;
+  bottom: 0;
+  z-index: 50;
+  width: 500px;
+}
+.responsive-showcaser.all-devices .laptop .display {
+  height: 200px;
+  border: 15px solid #000000;
+}
+.responsive-showcaser.all-devices .laptop .keyboard {
+  height: 10px;
+}
+.responsive-showcaser.all-devices .laptop .touchpad {
+  height: 5px;
+}
+.responsive-showcaser.all-devices .laptop .keyboard-bottom {
+  height: 6px;
+}
+.responsive-showcaser.all-devices .tablet {
+  width: 200px;
+  height: 300px;
+  border: 25px solid #000000;
+  position: absolute;
+  bottom: 0;
+  z-index: 150;
+  left: 3%;
+}
+.responsive-showcaser.all-devices .tablet .camera {
+  font-size: 10px;
+}
+.responsive-showcaser.all-devices .tablet .home-button {
+  padding: 2px 5px;
+  font-size: 9px;
+}
+.responsive-showcaser.all-devices .mobile {
+  position: absolute;
+  bottom: 0;
+  z-index: 160;
+  width: 135px;
+  left: 18%;
+}
+.responsive-showcaser.all-devices .mobile .mobile-top {
+  padding: 5px 0;
+  border-radius: 15px 15px 0 0;
+}
+.responsive-showcaser.all-devices .mobile .display {
+  height: 200px;
+  border-left: 10px solid #000000;
+  border-right: 10px solid #000000;
+}
+.responsive-showcaser.all-devices .mobile .mobile-bottom {
+  padding: 5px 0;
+  border-bottom: 1px solid #999;
+  border-radius: 0 0 15px 15px;
+}
+.responsive-showcaser.all-devices .mobile .home-button {
+  font-size: 9px;
+  padding: 3px 5px;
 }
 .clearfix:before,
 .clearfix:after {

@@ -24,17 +24,17 @@
 
   .stand-vertical {
     margin: 0 auto;
-    width: 8%;
-    padding: 15px 0;
+    width: 13%;
+    padding: 30px 0;
     background-color: @desktop-stand-vertical-bg;
   }
 
   .stand-horizontal {
     margin: 0 auto;
-    width: 18%;
-    height: 5px;
-    background-color: @desktop-stand-horizontal-bg;
+    width: 20%;
+    height: 8px;
     border-radius: 0 0 10px 10px;
+    background-color: @desktop-stand-horizontal-bg;
   }
 }
 
@@ -142,14 +142,98 @@
   }
 }
 
-
-
 .desktop,
 .laptop {
   width: 700px;
 
   .display {
     border-radius: 10px 10px 0 0;
+  }
+}
+
+
+// All devices
+.responsive-showcaser.all-devices {
+  position: relative;
+  margin: 50px auto;
+
+  .desktop {
+    z-index: 100;
+    position: relative;
+  }
+
+  .laptop {
+    position: absolute;
+    right: -25px;
+    bottom: 0;
+    z-index: 50;
+    width: 500px;
+
+    .display {
+      height: 200px;
+      border: 15px solid @device-border-color;
+    }
+
+    .keyboard {
+      height: 10px;
+    }
+
+    .touchpad {
+      height: 5px;
+    }
+
+    .keyboard-bottom {
+      height: 6px;
+    }
+  }
+
+  .tablet {
+    width: 200px;
+    height: 300px;
+    border: 25px solid @device-border-color;
+    position: absolute;
+    bottom: 0;
+    z-index: 150;
+    left: 3%;
+
+    .camera {
+      font-size: 10px;
+    }
+
+    .home-button {
+      padding: 2px 5px;
+      font-size: 9px;
+    }
+  }
+
+  .mobile {
+    position: absolute;
+    bottom: 0;
+    z-index: 160;
+    width: 135px;
+    left: 18%;
+
+    .mobile-top {
+      padding: 5px 0;
+      border-radius: 15px 15px 0 0;
+    }
+
+    .display {
+      height: 200px;
+      border-left: 10px solid @device-border-color;
+      border-right: 10px solid @device-border-color;
+    }
+
+    .mobile-bottom {
+      padding: 5px 0;
+      border-bottom: 1px solid #999;
+      border-radius: 0 0 15px 15px;
+    }
+
+    .home-button {
+      font-size: 9px;
+      padding: 3px 5px;
+    }
   }
 }
 

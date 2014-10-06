@@ -1,47 +1,79 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Responsive Showcaser - CSS powered responsive showcase design</title>
-    <meta name="description" content="Responsive showcase design">
+    <title>Responsive Showcaser - CSS utility to showcase responsive design</title>
+    <meta name="description" content="Showcase responsive design">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/responsive-showcaser.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="css/demo.css">
   </head>
   <body>
-    <div class="text-center">
-      <h1>Responsive Showcaser - CSS powered responsive showcase utility</h1>
-    </div>
-    <div class="desktop align-center">
-      <div class="display"></div>
-      <div class="display-bottom text-center"><i class="fa fa-apple"></i></div>
-      <div class="stand-vertical"></div>
-      <div class="stand-horizontal"></div>
-    </div>
+    <div class="container text-center">
+      <h1>Responsive Showcaser</h1>
+      <p>CSS utility to showcase responsive design</p>
 
-    <div class="vertical-separator"></div>
+      <h2>All devices</h2>
+      <div class="responsive-showcaser all-devices">
+        <div class="desktop align-center">
+          <div class="display" style="background-color: #307B91;"></div>
+          <div class="display-bottom text-center"><i class="fa fa-apple"></i></div>
+          <div class="stand-vertical"></div>
+          <div class="stand-horizontal"></div>
+        </div>
+        <div class="laptop">
+          <div class="display" style="background-color: #C6BC53;"></div>
+          <div class="keyboard">
+            <div class="touchpad"></div>
+          </div>
+          <div class="keyboard-bottom"></div>
+        </div>
+        <div class="tablet" style="background-color: #62CB80;">
+          <div class="fa fa-circle camera"></div>
+          <div class="fa fa-square-o home-button"></div>
+        </div>
+        <div class="mobile">
+          <div class="mobile-top text-center">
+            <span class="fa fa-circle camera"></span>
+            <span class="speaker"></span>
+          </div>
+          <div class="display" style="background-color: #71D0D0;"></div>
+          <div class="mobile-bottom text-center">
+            <span class="fa fa-square-o home-button"></span>
+          </div>
+        </div>
+      </div>
 
-    <div class="laptop align-center">
-      <div class="display"></div>
-      <div class="keyboard">
-        <div class="touchpad"></div>
+      <h2>Desktop only</h2>
+      <div class="desktop align-center">
+        <div class="display"></div>
+        <div class="display-bottom text-center"><i class="fa fa-apple"></i></div>
+        <div class="stand-vertical"></div>
+        <div class="stand-horizontal"></div>
       </div>
-      <div class="keyboard-bottom"></div>
-    </div>
-    <div class="vertical-separator"></div>
-    <div class="tablet align-center">
-      <div class="fa fa-circle camera"></div>
-      <div class="fa fa-square-o home-button"></div>
-    </div>
-    <div class="vertical-separator"></div>
-    <div class="mobile align-center">
-      <div class="mobile-top text-center">
-        <span class="fa fa-circle camera"></span>
-        <span class="speaker"></span>
+      <h2>Laptop only</h2>
+      <div class="laptop align-center">
+        <div class="display"></div>
+        <div class="keyboard">
+          <div class="touchpad"></div>
+        </div>
+        <div class="keyboard-bottom"></div>
       </div>
-      <div class="display"></div>
-      <div class="mobile-bottom text-center">
-        <span class="fa fa-square-o home-button"></span>
+      <h2>Tablet only</h2>
+      <div class="tablet align-center">
+        <div class="fa fa-circle camera"></div>
+        <div class="fa fa-square-o home-button"></div>
+      </div>
+      <h2>Mobile only</h2>
+      <div class="mobile align-center">
+        <div class="mobile-top text-center">
+          <span class="fa fa-circle camera"></span>
+          <span class="speaker"></span>
+        </div>
+        <div class="display"></div>
+        <div class="mobile-bottom text-center">
+          <span class="fa fa-square-o home-button"></span>
+        </div>
       </div>
     </div>
   </body>

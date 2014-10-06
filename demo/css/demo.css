@@ -6,3 +6,8 @@ h1 {
 .vertical-separator {
   margin-top: 50px;
 }
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+}
