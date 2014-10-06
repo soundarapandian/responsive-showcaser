@@ -9,6 +9,14 @@ Dependencies
 ------------
   * [Font-Awesome](http://fortawesome.github.io/Font-Awesome)
 
+Caution
+-------
+  Responsive Showcaser is in experiment stage only. Its not still production ready.
+
+Wrok in Progress
+----------------
+  * Implement responsive hacks
+
 Contributing
 ------------
   Patches are welcome!
