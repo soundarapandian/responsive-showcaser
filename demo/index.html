@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/responsive-showcaser.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
     <link rel="stylesheet" type="text/css" href="css/demo.css">
   </head>
   <body>
@@ -15,24 +16,24 @@
 
       <h2>All devices</h2>
       <div class="responsive-showcaser all-devices">
-        <div class="desktop align-center">
+        <div class="desktop align-center wow fadeInRight">
           <div class="display" style="background-color: #307B91;"></div>
           <div class="display-bottom text-center"><i class="fa fa-apple"></i></div>
           <div class="stand-vertical"></div>
           <div class="stand-horizontal"></div>
         </div>
-        <div class="laptop">
+        <div class="laptop wow fadeInRight">
           <div class="display" style="background-color: #C6BC53;"></div>
           <div class="keyboard">
             <div class="touchpad"></div>
           </div>
           <div class="keyboard-bottom"></div>
         </div>
-        <div class="tablet" style="background-color: #62CB80;">
+        <div class="tablet wow fadeInLeft" style="background-color: #62CB80;">
           <div class="fa fa-circle camera"></div>
           <div class="fa fa-square-o home-button"></div>
         </div>
-        <div class="mobile">
+        <div class="mobile wow fadeInLeft">
           <div class="mobile-top text-center">
             <span class="fa fa-circle camera"></span>
             <span class="speaker"></span>
@@ -45,14 +46,14 @@
       </div>
 
       <h2>Desktop only</h2>
-      <div class="desktop align-center">
+      <div class="desktop align-center wow fadeInUp">
         <div class="display"></div>
         <div class="display-bottom text-center"><i class="fa fa-apple"></i></div>
         <div class="stand-vertical"></div>
         <div class="stand-horizontal"></div>
       </div>
       <h2>Laptop only</h2>
-      <div class="laptop align-center">
+      <div class="laptop align-center wow fadeInUp">
         <div class="display"></div>
         <div class="keyboard">
           <div class="touchpad"></div>
@@ -60,12 +61,12 @@
         <div class="keyboard-bottom"></div>
       </div>
       <h2>Tablet only</h2>
-      <div class="tablet align-center">
+      <div class="tablet align-center wow fadeInUp">
         <div class="fa fa-circle camera"></div>
         <div class="fa fa-square-o home-button"></div>
       </div>
       <h2>Mobile only</h2>
-      <div class="mobile align-center">
+      <div class="mobile align-center wow fadeInUp">
         <div class="mobile-top text-center">
           <span class="fa fa-circle camera"></span>
           <span class="speaker"></span>
@@ -75,6 +76,10 @@
           <span class="fa fa-square-o home-button"></span>
         </div>
       </div>
+      <h2>Much more coming soon...</h2>
     </div>
+    <script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
+    <script src="js/wow.js" type="text/javascript"></script>
+    <script src="js/demo.js" type="text/javascript"></script>
   </body>
 </html>

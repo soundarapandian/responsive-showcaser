@@ -170,7 +170,7 @@
     width: 500px;
 
     .display {
-      height: 200px;
+      height: 250px;
       border: 15px solid @device-border-color;
     }
 
@@ -189,7 +189,7 @@
 
   .tablet {
     width: 200px;
-    height: 300px;
+    height: 280px;
     border: 25px solid @device-border-color;
     position: absolute;
     bottom: 0;
@@ -210,8 +210,8 @@
     position: absolute;
     bottom: 0;
     z-index: 160;
-    width: 135px;
-    left: 18%;
+    width: 120px;
+    left: 20%;
 
     .mobile-top {
       padding: 5px 0;
@@ -219,7 +219,7 @@
     }
 
     .display {
-      height: 200px;
+      height: 170px;
       border-left: 10px solid @device-border-color;
       border-right: 10px solid @device-border-color;
     }
@@ -233,6 +233,32 @@
     .home-button {
       font-size: 9px;
       padding: 3px 5px;
+    }
+  }
+
+  @media (max-width: @screen-xs-max) {
+    .desktop,
+    .laptop,
+    .tablet {
+      display: none;
+    }
+
+    .mobile {
+      position: static;
+      margin: 0 auto;
+    }
+  }
+
+  @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+    .desktop,
+    .mobile,
+    .tablet {
+      display: none;
+    }
+
+    .laptop {
+      position: static;
+      margin: 0 auto;
     }
   }
 }
