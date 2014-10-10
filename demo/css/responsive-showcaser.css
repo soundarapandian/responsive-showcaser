@@ -156,6 +156,7 @@
   width: 200px;
   height: 280px;
   border-right: 25px solid #000000;
+  border-left: 25px solid #000000;
   border-top: 30px solid #000000;
   border-bottom: 30px solid #000000;
   position: absolute;
