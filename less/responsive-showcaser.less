@@ -19,6 +19,7 @@
 
     > .fa-apple {
       font-size: 25px;
+      color: @device-border-color;
     }
   }
 
@@ -110,16 +111,16 @@
 
     .camera {
       color: @mobile-camera-bg;
-      font-size: 8px;
+      font-size: 6px;
     }
 
     .speaker {
       display: inline-block;
       width: 20%;
-      height: 5px;
+      height: 3px;
       background-color: @mobile-speaker-bg;
       border-radius: 3px;
-      margin-left: 10px;
+      margin-left: 5px;
     }
   }
 
@@ -190,7 +191,10 @@
   .tablet {
     width: 200px;
     height: 280px;
-    border: 25px solid @device-border-color;
+    border-right: 25px solid @device-border-color;
+    border-right: 25px solid @device-border-color;
+    border-top: 30px solid @device-border-color;
+    border-bottom: 30px solid @device-border-color;
     position: absolute;
     bottom: 0;
     z-index: 150;
@@ -198,6 +202,11 @@
 
     .camera {
       font-size: 10px;
+      top: -7%;
+    }
+
+    .home-button {
+      bottom: -8%;
     }
 
     .home-button {
