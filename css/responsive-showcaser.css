@@ -155,7 +155,10 @@
 .responsive-showcaser.all-devices .tablet {
   width: 200px;
   height: 280px;
-  border: 25px solid #000000;
+  border-right: 25px solid #000000;
+  border-left: 25px solid #000000;
+  border-top: 30px solid #000000;
+  border-bottom: 30px solid #000000;
   position: absolute;
   bottom: 0;
   z-index: 150;
@@ -163,6 +166,10 @@
 }
 .responsive-showcaser.all-devices .tablet .camera {
   font-size: 10px;
+  top: -7%;
+}
+.responsive-showcaser.all-devices .tablet .home-button {
+  bottom: -8%;
 }
 .responsive-showcaser.all-devices .tablet .home-button {
   padding: 2px 5px;
